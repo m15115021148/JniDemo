@@ -10,7 +10,8 @@
       tv.setText("jni里面String是:"+str+"\n明文:"+ming+"\n加密后:"+encrypmi+"\n解密后:"+decrypmi);
  
 主要代码
-    /**
+
+     /**
      * 加密
      **/
     public static String encode(String msg) {
