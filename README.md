@@ -3,14 +3,14 @@
 这是一个简单的jni测试
 对数据进行加密跟解密
 
-String str = JniUtils.getStringFormC();
-String ming = "121212121";
-String encrypmi = JniUtils.encode(ming);
-String decrypmi = JniUtils.decode(encrypmi);
-tv.setText("jni里面String是:"+str+"\n明文:"+ming+"\n加密后:"+encrypmi+"\n解密后:"+decrypmi);
+      String str = JniUtils.getStringFormC();
+      String ming = "121212121";
+      String encrypmi = JniUtils.encode(ming);
+      String decrypmi = JniUtils.decode(encrypmi);
+      tv.setText("jni里面String是:"+str+"\n明文:"+ming+"\n加密后:"+encrypmi+"\n解密后:"+decrypmi);
  
 主要代码
- /**
+    /**
      * 加密
      **/
     public static String encode(String msg) {
